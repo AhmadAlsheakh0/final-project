@@ -1,0 +1,261 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Montserrat",Verdana,Helvetica,sans-serif;
+    font-size: 12px;
+    line-height: 1.42857;
+    color: #000;
+    background-color: #fff;
+    position: relative;
+}
+
+.header {
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    background-color: white;
+}
+
+.header-ads {
+    background-color: #f3f1e9;
+    height: auto;
+    padding: 10px;
+    color: rgb(148, 124, 106, 100%);
+}
+
+#play {
+    cursor: pointer;
+    border: none;
+}
+
+#play i {
+    color: rgb(148, 124, 106, 100%);
+} 
+
+.header-body {
+    height: 108px;
+    max-width: 1280px;
+    min-width: 767px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    font-size: 11px;
+    color: #4d4d4d;
+}
+
+.headerWraper {
+    position: relative;
+}
+
+.top {
+    position: relative;
+    top: 9px;
+}
+
+.top div {
+    display: inline-block;
+    font-size: 11px;
+    color: #4d4d4d;
+    margin: 0 6px
+}
+
+.top .left {
+    float: left;
+}
+
+.top .right {
+    float: right;
+}
+
+.top a:hover {
+    text-decoration: underline;
+}
+
+.top .right div {
+    vertical-align: top;
+}
+
+.top .right div a {
+    background-repeat: no-repeat;
+}
+
+#loginAccount {
+    background: none;
+    position: relative;
+    padding-left: 22px;
+}
+
+#loginAccount i{
+    padding-right: 5px;
+    color: rgb(148, 124, 106, 100%);
+}
+
+#wishList {
+    background-position: 0 1px;
+}
+
+#wishList a {
+    padding-left: 22px;
+    background-image: url("https://static2.ballarddesigns.com/wcsstore/images/BallardDesigns/interface/icons/wishlist.png");
+    background-size: 15px;
+}
+
+#orderStatus a {
+    background-position: 0 1px;
+    padding-left: 27px;
+    background-image: url("https://static2.ballarddesigns.com/wcsstore/images/BallardDesigns/interface/icons/truck.png");
+    background-size: 20px;
+}
+
+#shoppingCart {
+    padding-bottom: 2px;
+}
+
+#miniCart {
+    display: none;
+    align-items: center;
+    padding-left: 15px;
+    margin: 0;
+    width: 400px;
+    height: 50px;
+    border: 1px solid black;
+    position: absolute;
+    z-index: -10;
+    top: 20px;
+    right: 10px;
+    box-shadow: 4px 3px rgb(192, 192, 192);
+}
+
+#shoppingCart:hover #miniCart {
+    display: flex;
+}
+
+.logo { 
+    top: 38px;
+    position: relative;
+    clear: both;
+}
+
+.center {
+    width: 25%;
+    margin: auto;
+}
+
+.bottom {
+    margin-top: 30px;
+    position: relative;
+    clear: both;
+    height: 33px;
+}
+
+.bottom div {
+    display: inline-block;
+    margin: 0 6px;
+}
+
+.bottom .left {
+    float: left;
+    position: relative;
+    bottom: 8px;
+}
+
+.bottom .left a {
+    font-size: 14px;
+    color: #000;
+    font-weight: 500;
+    padding-right: 13px;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+.bottom .right{
+    position: absolute;
+    right: 0px;
+    bottom: 8px;
+}
+
+form {
+    margin: 0;
+}
+
+#searchBox {
+   position: relative;
+   bottom: 9px;
+   margin-top: -16px;
+   width: 326px;
+}
+
+#headerSearchBox {
+    width: 100%;
+    height: 40px;
+    padding-right: 28px;
+    border-radius: 6px;
+    background-size: 18px;
+    padding: 4px 10px;
+    border-color: rgb(177, 177, 177);
+}
+
+#searchButton {
+    position: absolute;
+    width: 29px;
+    height: 25px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    right: 8px;
+    top: 8px;
+    color:rgb(148, 124, 106, 100%);
+}
+
+#top-navigation {
+    margin: 0 auto;
+    padding: 0;
+    border: 1px solid #dfdbd8;
+    border-left: none;
+    border-right: none;
+    display: block;
+}
+
+nav {
+    display: block;
+}
+
+nav ul, nav ol {
+    list-style: none;
+    list-style-image: none;
+}
+
+.menuItem ul {
+    display: none;
+}
+
+.menuItem {
+    display: inline;
+}
+
+ul, ol {
+    margin-top: 6.6px;
+    margin-bottom: 6.6px;
+}
+
+ul ul, ol ul, ul ol, ol ol {
+    margin-bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
